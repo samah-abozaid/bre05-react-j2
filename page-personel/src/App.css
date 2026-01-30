@@ -1,0 +1,74 @@
+.layout {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section {
+  width: 100%;
+}
+
+h1 {
+  color: #ff5555;
+  font-size: 2.5rem;
+}
+
+h2 {
+  color: #8be9f2;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+h3 {
+  color: #bd93f9;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+p {
+  color: white;
+}
+
+ul {
+  display: flex;
+  /*gap: 1rem;*/
+  list-style: none;
+  padding: 0;
+}
+
+.competances-section {
+  width: 80%;
+}
+
+/* Compétences */
+/*.competances {*/
+ /* width: 100vw;           /* largeur du viewport */
+ /*margin-left: calc(-50vw + 50%); /* sort du conteneur centré */
+ 
+/*}*/
+
+/* style des li */
+.competances li {
+  flex: 1;
+  padding: 3rem;
+  text-align: center;
+}
+
+.competances li:nth-child(1) { background-color: #50fa7b; }
+.competances li:nth-child(2) { background-color: #ffb86c; }
+.competances li:nth-child(3) { background-color:#ff79c6; }
+.competances li:nth-child(4) { background-color: #f1fa8c; }
+
+/* Publications */
+.publication {
+  display: flex;
+  gap: 1rem;
+}
+
+.publication li {
+  flex: 1;
+}
+ 
+ 
+ img{
+   width:100%;
+ }
